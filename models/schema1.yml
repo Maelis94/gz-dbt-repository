@@ -3,10 +3,14 @@ version: 2
 sources:
   - name: raw
     schema: gz_raw_data
+    description: greenweez raw data source
     tables:
       - name: sales
         identifier: raw_gz_sales 
+        description: sales of greenweez
       - name:  product
         identifier: raw_gz_product
+        description: product of greenweez
       - name: ship
         identifier: raw_gz_ship
+        description: ship of greenweez
