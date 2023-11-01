@@ -11,10 +11,9 @@ renamed as (
     select
         date_date,
         orders_id,
-        pdt_id,
+        pdt_id as products_id,
         revenue,
-        quantity
-
+        cast (quantity as float64) as quantity
     from source
 
 )
